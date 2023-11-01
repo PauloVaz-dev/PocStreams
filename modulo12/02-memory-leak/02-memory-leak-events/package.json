@@ -1,0 +1,19 @@
+{
+  "name": "02-memory-leak-events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "CLIMEM=8000 node -r climem index.js",
+    "climem": "npx climem 8000",
+    "teste": "npx autocannon -c 100 -d30 http://localhost:3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autocannon": "^7.11.0",
+    "climem": "^1.0.3"
+  }
+}

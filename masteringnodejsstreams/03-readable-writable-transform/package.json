@@ -1,0 +1,15 @@
+{
+  "name": "03-readable-writable-transform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "CLIMEM=8000 node -r climem 01-reading-big-file-in-chunks.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "climem": "^2.0.0"
+  }
+}

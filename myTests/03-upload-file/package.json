@@ -1,0 +1,18 @@
+{
+  "name": "03-test-carga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "teste": "npx autocannon -c 100 -d30 http://localhost:3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autocannon": "^7.12.0"
+  },
+  "dependencies": {
+    "winston": "^3.11.0"
+  }
+}
